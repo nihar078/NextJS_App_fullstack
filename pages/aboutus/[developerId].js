@@ -24,14 +24,15 @@ const Developer = () => {
   console.log(developer);
   return (
     <div>
+      <h1>Details</h1>
       {developer ? (
-        <h1>
+        <h3>
           {/* {developer.name}  {developer.role} */}
           {developer.name} - {developer.role}
 
-        </h1>
+        </h3>
       ) : (
-        <h1>Developer doesn't exist.</h1>
+        <h3>Developer doesn't exist.</h3>
       )}
     </div>
   );
